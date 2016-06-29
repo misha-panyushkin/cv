@@ -1,6 +1,0 @@
-client:
-  build: ./
-  command: node /opt/app/app.js
-  ports:
-   - "80:80"
-   - "3456:3456"

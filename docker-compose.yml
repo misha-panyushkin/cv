@@ -1,0 +1,11 @@
+nginx:
+    image: mpanyushkin/cv:nginx
+    links:
+        - web:web
+    ports:
+        - "80:80"
+
+web:
+    image: mpanyushkin/cv:web
+    ports:
+        - "8080"
