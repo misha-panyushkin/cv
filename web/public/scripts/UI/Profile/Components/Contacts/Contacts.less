@@ -1,12 +1,23 @@
 .Contacts {
+    position: relative;
+
     &__body {
         display: flex;
         flex-flow: column nowrap;
         align-items: flex-start;
         align-content: flex-start;
+        padding-left: 27px;
 
         .CustomLink {
             margin: 1px 0;
         }
+    }
+
+    &__bookmark {
+        position: absolute;
+        right: 33px;
+        top: -1px;
+        font-size: 1.3em;
+        color: #e23a3a;
     }
 }

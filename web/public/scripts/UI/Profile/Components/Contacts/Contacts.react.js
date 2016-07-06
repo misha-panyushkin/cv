@@ -10,6 +10,10 @@ export default function Contacts ({  }) {
     return (
         <Article title="Contacts" _block={block}>
 
+            <i  className={block('bookmark').mix('fa fa-bookmark')} 
+                aria-hidden="true">
+            </i>
+
             <CustomLink link="https://www.lonelyplanet.com/russia/st-petersburg" 
                         className="selectable emphasized"
                         faClassName="fa-map-marker"

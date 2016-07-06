@@ -5,9 +5,11 @@
     margin: 25px 0;
 }
 
-.cParagraph:first-of-type::first-letter {
+.cParagraph.capital::first-letter,
+.cParagraph:not(.plain):first-of-type::first-letter {
     padding-left: 1em;
-    color: #f00;
+    color: #e23a3a;
+    font-weight: 400;
 }
 
 .cParagraph:first-of-type {

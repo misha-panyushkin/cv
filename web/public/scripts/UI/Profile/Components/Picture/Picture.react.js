@@ -9,9 +9,10 @@ export default function Picture ({  }) {
         <article
             className={block().mix('selectable')}>
             <figure className={block('figure')}>
-                <img src="/materials/misha2.jpg" alt="Misha's photo"/>
+                <img src="/materials/misha2@2x.jpg" alt="Misha's photo"/>
                 <figcaption>
                     <h3 className="cHeader name">Misha Panyushkin</h3>
+                    <h4 className="cHeader vocation">product developer</h4>
                 </figcaption>
             </figure>
         </article>

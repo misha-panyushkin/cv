@@ -187,7 +187,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Ultra Light */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 100;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff\");\n}\n/** Thin */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 200;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff\");\n}\n/** Regular */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 400;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff\");\n}\n/** Medium */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 500;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff\");\n}\n/** Semi Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 600;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff\");\n}\n/** Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 700;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff\");\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\n.painted {\n  background-color: #f2f2f2;\n  color: #949494;\n}\n.emphasized {\n  color: #383838;\n}\nh1.cHeader {\n  font-size: 55px;\n  font-weight: 600;\n}\nh2.cHeader {\n  font-size: 2.5em;\n  font-weight: 100;\n}\nh3.cHeader {\n  font-size: 2.0em;\n  font-weight: 100;\n}\nh4.cHeader {\n  font-size: 1.4em;\n  font-weight: 100;\n}\nh5.cHeader {\n  font-size: 1.1em;\n  font-weight: 100;\n}\nhgroup {\n  margin: 0 0 20px 0;\n}\nhgroup h1,\nhgroup h2,\nhgroup h3,\nhgroup h4,\nhgroup h5,\nhgroup h6 {\n  margin: 0;\n}\n.cPaper {\n  font-style: normal;\n  font-family: \"San Francisco\", \"Myriad Set Pro\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  line-height: 1.45;\n  font-size: 1em;\n  font-weight: 200;\n  letter-spacing: .3px;\n  word-spacing: 1px;\n  font-size: 100%;\n}\n.cParagraph {\n  line-height: 1.47;\n  font-size: 1em;\n  font-weight: 300;\n  margin: 25px 0;\n}\n.cParagraph:first-of-type::first-letter {\n  padding-left: 1em;\n  color: #f00;\n}\n.cParagraph:first-of-type {\n  margin-top: 0;\n}\n.cParagraph:last-of-type {\n  margin-bottom: 0;\n}\n.unselectable {\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -o-user-select: none;\n  -ms-user-select: none;\n      user-select: none;\n}\n.selectable {\n  -moz-user-select: auto;\n  -webkit-user-select: auto;\n  -o-user-select: auto;\n  -ms-user-select: auto;\n      user-select: auto;\n}\n", ""]);
+	exports.push([module.id, "/** Ultra Light */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 100;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff\");\n}\n/** Thin */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 200;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff\");\n}\n/** Regular */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 400;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff\");\n}\n/** Medium */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 500;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff\");\n}\n/** Semi Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 600;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff\");\n}\n/** Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 700;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff\");\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\n.painted {\n  background-color: #f2f2f2;\n  color: #949494;\n}\n.emphasized {\n  color: #383838;\n}\nh1.cHeader {\n  font-size: 55px;\n  font-weight: 600;\n}\nh2.cHeader {\n  font-size: 2.5em;\n  font-weight: 100;\n}\nh3.cHeader {\n  font-size: 2.0em;\n  font-weight: 100;\n}\nh4.cHeader {\n  font-size: 1.4em;\n  font-weight: 100;\n}\nh5.cHeader {\n  font-size: 1.1em;\n  font-weight: 100;\n}\nhgroup {\n  margin: 0 0 20px 0;\n}\nhgroup h1,\nhgroup h2,\nhgroup h3,\nhgroup h4,\nhgroup h5,\nhgroup h6 {\n  margin: 0;\n}\n.cPaper {\n  font-style: normal;\n  font-family: \"San Francisco\", \"Myriad Set Pro\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  line-height: 1.45;\n  font-size: 1em;\n  font-weight: 200;\n  letter-spacing: .3px;\n  word-spacing: 1px;\n  font-size: 100%;\n}\n.cParagraph {\n  line-height: 1.47;\n  font-size: 1em;\n  font-weight: 300;\n  margin: 25px 0;\n}\n.cParagraph.capital::first-letter,\n.cParagraph:not(.plain):first-of-type::first-letter {\n  padding-left: 1em;\n  color: #e23a3a;\n  font-weight: 400;\n}\n.cParagraph:first-of-type {\n  margin-top: 0;\n}\n.cParagraph:last-of-type {\n  margin-bottom: 0;\n}\n.unselectable {\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -o-user-select: none;\n  -ms-user-select: none;\n      user-select: none;\n}\n.selectable {\n  -moz-user-select: auto;\n  -webkit-user-select: auto;\n  -o-user-select: auto;\n  -ms-user-select: auto;\n      user-select: auto;\n}\n", ""]);
 
 	// exports
 
@@ -50435,10 +50435,10 @@
 	                    'section',
 	                    { className: this.block('section') },
 	                    _react2.default.createElement(_Components.Picture, null),
-	                    _react2.default.createElement(_Components.About, null),
 	                    _react2.default.createElement(_Components.Product, null),
 	                    _react2.default.createElement(_Components.Education, null),
 	                    _react2.default.createElement(_Components.Teaching, null),
+	                    _react2.default.createElement(_Components.About, null),
 	                    _react2.default.createElement(_Components.Skills, null),
 	                    _react2.default.createElement(_Components.Contacts, null)
 	                ),
@@ -50491,7 +50491,7 @@
 
 
 	// module
-	exports.push([module.id, ".Profile {\n  padding: 13px 10px 0 10px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row wrap;\n      flex-flow: row wrap;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.Profile__section {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column nowrap;\n      flex-flow: column nowrap;\n  min-width: 350px;\n  max-width: 500px;\n}\n.Profile__aside {\n  min-width: 350px;\n  max-width: 500px;\n  margin: 0 0 0 13px;\n}\n", ""]);
+	exports.push([module.id, ".Profile {\n  padding: 13px 10px 0 10px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: row wrap;\n      flex-flow: row wrap;\n  -ms-flex-pack: center;\n      justify-content: center;\n}\n.Profile__section {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column nowrap;\n      flex-flow: column nowrap;\n  min-width: 350px;\n  max-width: 500px;\n  margin: 0 6px;\n}\n.Profile__aside {\n  min-width: 350px;\n  max-width: 500px;\n  margin: 0 6px;\n}\n", ""]);
 
 	// exports
 
@@ -50832,7 +50832,7 @@
 	        _react2.default.createElement(
 	            'figure',
 	            { className: block('figure') },
-	            _react2.default.createElement('img', { src: '/materials/misha2.jpg', alt: 'Misha\'s photo' }),
+	            _react2.default.createElement('img', { src: '/materials/misha2@2x.jpg', alt: 'Misha\'s photo' }),
 	            _react2.default.createElement(
 	                'figcaption',
 	                null,
@@ -50840,6 +50840,11 @@
 	                    'h3',
 	                    { className: 'cHeader name' },
 	                    'Misha Panyushkin'
+	                ),
+	                _react2.default.createElement(
+	                    'h4',
+	                    { className: 'cHeader vocation' },
+	                    'product developer'
 	                )
 	            )
 	        )
@@ -50881,7 +50886,7 @@
 
 
 	// module
-	exports.push([module.id, ".Picture {\n  background-color: #fff;\n  margin-bottom: 14px;\n  border: 1px solid #e4e4e4;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.Picture__figure {\n  margin: 0;\n}\n.Picture__figure img {\n  display: block;\n}\n.Picture__figure figcaption {\n  padding: 5px 17px;\n}\n.Picture__figure figcaption .name {\n  margin: 0;\n  font-weight: 200;\n  color: #6d6d6d;\n}\n", ""]);
+	exports.push([module.id, ".Picture {\n  background-color: #fff;\n  margin-bottom: 14px;\n  border: 1px solid #e4e4e4;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.Picture__figure {\n  margin: 0;\n}\n.Picture__figure img {\n  display: block;\n  height: 307px;\n  border-bottom: 3px solid #c5c5c5;\n}\n.Picture__figure figcaption {\n  padding: 5px 17px;\n}\n.Picture__figure figcaption .name {\n  margin: 0;\n  font-weight: 200;\n  color: #6d6d6d;\n}\n.Picture__figure figcaption .vocation {\n  margin: 0;\n}\n", ""]);
 
 	// exports
 
@@ -51119,6 +51124,8 @@
 	    return _react2.default.createElement(
 	        _Article2.default,
 	        { title: 'Contacts', _block: block },
+	        _react2.default.createElement('i', { className: block('bookmark').mix('fa fa-bookmark'),
+	            'aria-hidden': 'true' }),
 	        _react2.default.createElement(
 	            _CustomLink2.default,
 	            { link: 'https://www.lonelyplanet.com/russia/st-petersburg',
@@ -51187,7 +51194,7 @@
 
 
 	// module
-	exports.push([module.id, ".Contacts__body {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column nowrap;\n      flex-flow: column nowrap;\n  -ms-flex-align: start;\n      align-items: flex-start;\n  -ms-flex-line-pack: start;\n      align-content: flex-start;\n}\n.Contacts__body .CustomLink {\n  margin: 1px 0;\n}\n", ""]);
+	exports.push([module.id, ".Contacts {\n  position: relative;\n}\n.Contacts__body {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-flow: column nowrap;\n      flex-flow: column nowrap;\n  -ms-flex-align: start;\n      align-items: flex-start;\n  -ms-flex-line-pack: start;\n      align-content: flex-start;\n  padding-left: 27px;\n}\n.Contacts__body .CustomLink {\n  margin: 1px 0;\n}\n.Contacts__bookmark {\n  position: absolute;\n  right: 33px;\n  top: -1px;\n  font-size: 1.3em;\n  color: #e23a3a;\n}\n", ""]);
 
 	// exports
 
@@ -51831,7 +51838,26 @@
 	    return _react2.default.createElement(
 	        _Article2.default,
 	        { title: 'Product' },
-	        _react2.default.createElement('p', { className: 'cParagraph' })
+	        _react2.default.createElement(
+	            'p',
+	            { className: 'cParagraph plain' },
+	            'Product development subdivides into two main flows for me.'
+	        ),
+	        _react2.default.createElement(
+	            'p',
+	            { className: 'cParagraph capital' },
+	            'The first one is product design flow. We look at variety of different issues. From classical to modern, from complex to pure and simple, high-quality and infusive ones. At the project start we develop different concepts. The designing process is changing the product from start to end. We always rely on basics and give us ability to make a difference during this time. The worthul product coming through discussion, brainstorming and team work.'
+	        ),
+	        _react2.default.createElement(
+	            'p',
+	            { className: 'cParagraph capital' },
+	            'The second one is model programming flow. Here we look through possibilities we have in modern world. Collect the most suitable ones for the product. Sometimes looking for specific approach, sometimes for more common one. Scalability and speed are always as standard.'
+	        ),
+	        _react2.default.createElement(
+	            'p',
+	            { className: 'cParagraph' },
+	            'The flows are combining each other and its ratio is project dependent. But the very first step is an idea. The key principles are printed from the first flow.'
+	        )
 	    );
 	}
 
@@ -51896,6 +51922,10 @@
 
 	var _bemCn2 = _interopRequireDefault(_bemCn);
 
+	var _ExternalLink = __webpack_require__(301);
+
+	var _ExternalLink2 = _interopRequireDefault(_ExternalLink);
+
 	var _Article = __webpack_require__(292);
 
 	var _Article2 = _interopRequireDefault(_Article);
@@ -51912,7 +51942,23 @@
 	    return _react2.default.createElement(
 	        _Article2.default,
 	        { title: 'Teaching' },
-	        _react2.default.createElement('p', { className: 'cParagraph' })
+	        _react2.default.createElement(
+	            'p',
+	            { className: 'cParagraph' },
+	            'Have been teaching web development basics at ',
+	            _react2.default.createElement(
+	                _ExternalLink2.default,
+	                { link: 'http://epixx.ru/', className: 'emphasized' },
+	                'Epic Skills'
+	            ),
+	            ' for a few years. Led students through series of practical ',
+	            _react2.default.createElement(
+	                _ExternalLink2.default,
+	                { link: 'http://misha-panyushkin.github.io/js_learning/lesson2.html/', className: 'emphasized' },
+	                'lessons'
+	            ),
+	            '. Developed unique course for beginners.'
+	        )
 	    );
 	}
 

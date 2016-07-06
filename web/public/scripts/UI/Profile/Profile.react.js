@@ -27,10 +27,10 @@ export default class Profile extends Component {
                 className={ this.block() }>
                 <section className={ this.block('section') }>
                     <Picture/>
-                    <About/>
                     <Product/>
                     <Education/>
                     <Teaching/>
+                    <About/>
                     <Skills/>
                     <Contacts/>
                 </section>
