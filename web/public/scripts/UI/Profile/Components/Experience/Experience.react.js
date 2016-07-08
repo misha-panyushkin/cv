@@ -17,7 +17,7 @@ export default function Experience ({  }) {
                     <h4 className="cHeader">Aloudly Education</h4>
                 </hgroup>
                 <div className={blockPlace('body')}>
-                    <p className="cParagraph">We are bringing cutting edge technology to the academic world. Creating an unique technique for distinguish and eliminating human mispronunciations. It's a startup and we are moving forward every day.</p>
+                    <p className="cParagraph">We bring advanced technologies to the academic world. Creating an unique technique for distinguishing and eliminating human speech defects (mispronunciations). It's a startup and we are moving forward every day.</p>
                     <p className="cParagraph">Communication with people from different fields of the language learning world. Users clusterization. Preparing and gathering clients needs. Translation custom needs to technical requirements. Project definition. Project planning. Identifying appropriate architecture. Taking part in full development process including algorithms selecting and code writing. Control testing and deployment processes. Collecting and analyse statistics and users feedback. Searching for different paths. Investigating field of study. Looking forward every day.</p>
                     <p className="cParagraph">Limelighting project for those who are interested in modern hi tech world.</p>
                     <p className="cParagraph">Frontend visualization. Backend architecture. Server side tuning. Testing. Research making.</p>
