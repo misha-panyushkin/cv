@@ -8140,7 +8140,7 @@
 
 
 	// module
-	exports.push([module.id, "/** Ultra Light */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 100;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff\");\n}\n/** Thin */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 200;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff\");\n}\n/** Regular */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 400;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff\");\n}\n/** Medium */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 500;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff\");\n}\n/** Semi Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 600;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff\");\n}\n/** Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 700;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff\");\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\n.painted {\n  background-color: #f2f2f2;\n  color: #949494;\n}\n.emphasized {\n  color: #383838;\n}\nh1.cHeader {\n  font-size: 55px;\n  font-weight: 600;\n}\nh2.cHeader {\n  font-size: 2.5em;\n  font-weight: 100;\n}\nh3.cHeader {\n  font-size: 2.0em;\n  font-weight: 100;\n}\nh4.cHeader {\n  font-size: 1.4em;\n  font-weight: 100;\n}\nh5.cHeader {\n  font-size: 1.1em;\n  font-weight: 100;\n}\nhgroup {\n  margin: 0 0 20px 0;\n}\nhgroup h1,\nhgroup h2,\nhgroup h3,\nhgroup h4,\nhgroup h5,\nhgroup h6 {\n  margin: 0;\n}\n.cPaper {\n  font-style: normal;\n  font-family: \"San Francisco\", \"Myriad Set Pro\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  line-height: 1.45;\n  font-size: 1em;\n  font-weight: 200;\n  letter-spacing: .3px;\n  word-spacing: 1px;\n  font-size: 100%;\n}\n.cParagraph {\n  line-height: 1.47;\n  font-size: 1em;\n  font-weight: 300;\n  margin: 25px 0;\n}\n.cParagraph.capital::first-letter,\n.cParagraph:not(.plain):first-of-type::first-letter {\n  padding-left: 1em;\n  color: #e23a3a;\n  font-weight: 300;\n}\n.cParagraph:first-of-type {\n  margin-top: 0;\n}\n.cParagraph:last-of-type {\n  margin-bottom: 0;\n}\n.unselectable {\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -o-user-select: none;\n  -ms-user-select: none;\n      user-select: none;\n}\n.selectable {\n  -moz-user-select: auto;\n  -webkit-user-select: auto;\n  -o-user-select: auto;\n  -ms-user-select: auto;\n      user-select: auto;\n}\n", ""]);
+	exports.push([module.id, "/** Ultra Light */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 100;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff\");\n}\n/** Thin */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 200;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff\");\n}\n/** Regular */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 400;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff\");\n}\n/** Medium */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 500;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff\");\n}\n/** Semi Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 600;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff\");\n}\n/** Bold */\n@font-face {\n  font-family: \"San Francisco\";\n  font-weight: 700;\n  src: url(\"https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff\");\n}\nbody {\n  margin: 0;\n  padding: 0;\n}\n.painted {\n  background-color: #f2f2f2;\n  color: #949494;\n}\n.emphasized {\n  color: #383838;\n}\nh1.cHeader {\n  font-size: 55px;\n  font-weight: 600;\n}\nh2.cHeader {\n  font-size: 2.5em;\n  font-weight: 100;\n}\nh3.cHeader {\n  font-size: 2.0em;\n  font-weight: 100;\n}\nh4.cHeader {\n  font-size: 1.4em;\n  font-weight: 100;\n}\nh5.cHeader {\n  font-size: 1.1em;\n  font-weight: 100;\n}\nh6.cHeader {\n  font-size: 1em;\n  font-weight: 100;\n}\nhgroup {\n  margin: 0 0 20px 0;\n}\nhgroup h1,\nhgroup h2,\nhgroup h3,\nhgroup h4,\nhgroup h5,\nhgroup h6 {\n  margin: 0;\n}\n.cPaper {\n  font-style: normal;\n  font-family: \"San Francisco\", \"Myriad Set Pro\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif;\n  line-height: 1.45;\n  font-size: 1em;\n  font-weight: 200;\n  letter-spacing: .3px;\n  word-spacing: 1px;\n  font-size: 100%;\n}\n.cParagraph {\n  line-height: 1.47;\n  font-size: 1em;\n  font-weight: 300;\n  margin: 25px 0;\n}\n.cParagraph.capital::first-letter,\n.cParagraph:not(.plain):first-of-type::first-letter {\n  padding-left: 1em;\n  color: #e23a3a;\n  font-weight: 300;\n}\n.cParagraph:first-of-type {\n  margin-top: 0;\n}\n.cParagraph:last-of-type {\n  margin-bottom: 0;\n}\n.unselectable {\n  -moz-user-select: none;\n  -webkit-user-select: none;\n  -o-user-select: none;\n  -ms-user-select: none;\n      user-select: none;\n}\n.selectable {\n  -moz-user-select: auto;\n  -webkit-user-select: auto;\n  -o-user-select: auto;\n  -ms-user-select: auto;\n      user-select: auto;\n}\n", ""]);
 
 	// exports
 
@@ -58597,7 +58597,7 @@
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph' },
-	            'Fighting fit. Playing all team sports. Swim well. Keen on neural networks and artificial intelligence. Also I could be found searching for best city shot of espresso.'
+	            'Fighting fit. Play in all team sports. Swim well. Keen on neural networks and artificial intelligence. Also I could be found searching for best city shot of espresso.'
 	        ),
 	        _react2.default.createElement(
 	            'p',
@@ -58607,7 +58607,7 @@
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph' },
-	            'Responsible for the case in which I participate.'
+	            'Responsible for the business in which I participate.'
 	        )
 	    );
 	}
@@ -58797,7 +58797,7 @@
 	                _react2.default.createElement(
 	                    'h4',
 	                    { className: 'cHeader vocation' },
-	                    'Product Development'
+	                    'Web Product Developer'
 	                )
 	            )
 	        )
@@ -58888,19 +58888,19 @@
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph' },
-	            'Had been successfully admitted to master degree program at chair of ',
-	            _react2.default.createElement(
-	                _ExternalLink2.default,
-	                { link: 'http://amd.stu.neva.ru/', className: 'emphasized' },
-	                'Applied Mathematics'
-	            ),
-	            '. Have been graduated from ',
+	            'Graduated from ',
 	            _react2.default.createElement(
 	                _ExternalLink2.default,
 	                { link: '//english.spbstu.ru/', className: 'emphasized' },
 	                'St. Petersburg State Polytechnic University'
 	            ),
-	            ' at 2009.'
+	            ' at 2009. Studied at the ',
+	            _react2.default.createElement(
+	                _ExternalLink2.default,
+	                { link: 'http://amd.stu.neva.ru/', className: 'emphasized' },
+	                'Department of Applied Mathematics'
+	            ),
+	            '.'
 	        ),
 	        _react2.default.createElement(
 	            'p',
@@ -59031,7 +59031,7 @@
 
 
 	// module
-	exports.push([module.id, ".ExternalLink {\n  text-decoration: none;\n}\n.ExternalLink:hover {\n  text-decoration: underline;\n}\n.ExternalLink__icon {\n  font-size: 11px;\n  padding: 0 3px 0 4px;\n}\n", ""]);
+	exports.push([module.id, ".ExternalLink {\n  text-decoration: none;\n}\n.ExternalLink:hover {\n  text-decoration: underline;\n}\n.ExternalLink__icon {\n  font-size: .7em;\n  color: #949494;\n  padding: 0 3px 0 4px;\n}\n", ""]);
 
 	// exports
 
@@ -59483,6 +59483,10 @@
 
 	var _Article2 = _interopRequireDefault(_Article);
 
+	var _ExternalLink = __webpack_require__(598);
+
+	var _ExternalLink2 = _interopRequireDefault(_ExternalLink);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
@@ -59515,7 +59519,16 @@
 	                _react2.default.createElement(
 	                    'h4',
 	                    { className: 'cHeader' },
-	                    'Aloudly Education'
+	                    _react2.default.createElement(
+	                        _ExternalLink2.default,
+	                        { link: 'http://aloudly.education/', className: 'emphasized' },
+	                        'Aloudly Education'
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'h6',
+	                    { className: 'cHeader period' },
+	                    'December 2015 - Till now'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -59529,17 +59542,17 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Communication with people from different fields of the language learning world. Users clusterization. Preparing and gathering clients needs. Translation custom needs to technical requirements. Project definition. Project planning. Identifying appropriate architecture. Taking part in full development process including algorithms selecting and code writing. Control testing and deployment processes. Collecting and analyse statistics and users feedback. Searching for different paths. Investigating field of study. Looking forward every day.'
+	                    'Communication with people from different fields of world learning languages. Users clusterization. Preparing and gathering clients needs. Translation custom needs to technical requirements. Project definition. Project planning. Identifying appropriate architecture. Taking part in full development process including algorithms selecting and code writing. Control testing and deployment processes. Collecting and analyse statistics and users feedback. Searching for different paths. Investigating fields of study. I\'m looking forward every day.'
 	                ),
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Limelighting project for those who are interested in modern hi tech world.'
+	                    'Attract attention to the project for those who are interested in modern hi tech world.'
 	                ),
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Frontend visualization. Backend architecture. Server side tuning. Testing. Research making.'
+	                    'Frontend visualization. Backend architecture. Server side tuning. Testing. Research.'
 	                ),
 	                _react2.default.createElement(
 	                    'p',
@@ -59567,7 +59580,16 @@
 	                _react2.default.createElement(
 	                    'h4',
 	                    { className: 'cHeader' },
-	                    'Embria'
+	                    _react2.default.createElement(
+	                        _ExternalLink2.default,
+	                        { link: 'http://www.embria.ru/', className: 'emphasized' },
+	                        'Embria'
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'h6',
+	                    { className: 'cHeader period' },
+	                    'June 2012 - March 2016'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -59576,7 +59598,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Had been involved in products making at different companies inside Embria group.'
+	                    'Involved in product making at different companies inside Embria group.'
 	                ),
 	                _react2.default.createElement(
 	                    'p',
@@ -59591,7 +59613,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Created powerful social network mobile version web app. Created mobile messenger app prototype based on Phonegap & Titanium frameworks. Created powerful web based messenger app. Created fast big data visualization dashboards system.'
+	                    'Created powerful mobile web app for social network. Created mobile messenger app prototype based on Phonegap & Titanium frameworks. Created powerful web based messenger app. Created fast big data visualization dashboards system.'
 	                )
 	            )
 	        ),
@@ -59615,6 +59637,11 @@
 	                    'h4',
 	                    { className: 'cHeader' },
 	                    'MoreSalonov'
+	                ),
+	                _react2.default.createElement(
+	                    'h6',
+	                    { className: 'cHeader period' },
+	                    'March 2012 - May 2016'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -59628,7 +59655,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Get rid of project legacy code. Participated in rebranded version launch.'
+	                    'Legacy code elimination. Participated in rebranded version launch.'
 	                )
 	            )
 	        ),
@@ -59652,6 +59679,11 @@
 	                    'h4',
 	                    { className: 'cHeader' },
 	                    'ZED Russia'
+	                ),
+	                _react2.default.createElement(
+	                    'h6',
+	                    { className: 'cHeader period' },
+	                    'September 2011 - March 2012'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -59689,6 +59721,11 @@
 	                    'h4',
 	                    { className: 'cHeader' },
 	                    'Freelancer'
+	                ),
+	                _react2.default.createElement(
+	                    'h6',
+	                    { className: 'cHeader period' },
+	                    'September 2009 - September 2011'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -59697,7 +59734,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    { className: 'cParagraph' },
-	                    'Communication with business. Identifying appropriate architecture. Introducing and working on the key project parts. Project definition. Project planning. Taking part in full development process.'
+	                    'Communication with business. Identifying appropriate architecture. Introducing and working on the key project parts. Project definition. Project planning. Taking part in full web app development process.'
 	                ),
 	                _react2.default.createElement(
 	                    'p',
@@ -59749,7 +59786,7 @@
 
 
 	// module
-	exports.push([module.id, ".Experience__body {\n  padding-left: 0 !important;\n  padding-right: 0 !important;\n  padding-top: 5px !important;\n}\n.Place {\n  padding: 20px 20px 30px 20px;\n  border-top: 1px solid #dadada;\n}\n.Place:last-of-type {\n  padding: 20px 20px 0 20px;\n}\n.Place__header {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-flex-flow: row wrap;\n          flex-flow: row wrap;\n  -webkit-box-align: baseline;\n  -webkit-align-items: baseline;\n          align-items: baseline;\n  -webkit-box-pack: start;\n  -webkit-justify-content: flex-start;\n          justify-content: flex-start;\n  color: #5c5c5c;\n}\n.Place__header .delimiter {\n  padding: 0 10px;\n}\n", ""]);
+	exports.push([module.id, ".Experience__body {\n  padding-left: 0 !important;\n  padding-right: 0 !important;\n  padding-top: 5px !important;\n}\n.Place {\n  padding: 20px 20px 30px 20px;\n  border-top: 1px solid #dadada;\n}\n.Place:last-of-type {\n  padding: 20px 20px 0 20px;\n}\n.Place__header {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: flex;\n  -webkit-flex-flow: row wrap;\n          flex-flow: row wrap;\n  -webkit-box-align: baseline;\n  -webkit-align-items: baseline;\n          align-items: baseline;\n  -webkit-box-pack: start;\n  -webkit-justify-content: flex-start;\n          justify-content: flex-start;\n  color: #5c5c5c;\n}\n.Place__header .ExternalLink__icon {\n  padding: 0 3px 0 0;\n}\n.Place__header .delimiter {\n  padding: 0 10px;\n}\n.Place__header .period {\n  width: 100%;\n  color: #b9b9b9;\n  text-align: left;\n}\n", ""]);
 
 	// exports
 
@@ -59794,22 +59831,22 @@
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph plain' },
-	            'Product development subdivides into two main flows for me.'
+	            'Product development subdivides into two main flow for me.'
 	        ),
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph capital' },
-	            'The first one is product design flow. We look at variety of different issues. From classical to modern, from complex to pure and simple, high-quality and infusive ones. At the project start we develop different concepts. The designing process is changing the product from start to end. We always rely on basics and give us ability to make a difference during this time. The worthul product coming through discussion, brainstorming and team work.'
+	            'Product design is the first flow. I look at variety of different issues: from classical to modern, from complex to simple, to high-quality and the most shining example of them. At the beginning, when a project starts i develop different concepts. The designing process changes the product from start to end. I rely on basics. But it is always creative process. How does the product change during the time (from start to end) - is important question for me. Great product is coming out of discussion, brainstorming and team collaboration.'
 	        ),
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph capital' },
-	            'The second one is model programming flow. Here we look through possibilities we have in modern world. Collect the most suitable ones for the product. Sometimes looking for specific approach, sometimes for more common one. Scalability and speed are always as standard.'
+	            'Programming is the second flow. Here I look at possibilities we have in modern world. Collecting the most suitable technologies for the product. Sometimes I looking for the specific approach, sometimes more common one. Scalability and clusterization are always as main for me.'
 	        ),
 	        _react2.default.createElement(
 	            'p',
 	            { className: 'cParagraph' },
-	            'The flows are combining each other and its ratio is project dependent. But the very first step is an idea. The key principles are printed from the first flow.'
+	            'Flows mix with each other and turn into the product at the end of mixture. But the very first step is an idea. The key principles become visible from the first flow.'
 	        )
 	    );
 	}
@@ -59904,7 +59941,7 @@
 	                { link: 'http://epixx.ru/', className: 'emphasized' },
 	                'Epic Skills'
 	            ),
-	            ' for a few years. Led students through series of practical ',
+	            ' for a few years. Conducted students through series of practical ',
 	            _react2.default.createElement(
 	                _ExternalLink2.default,
 	                { link: 'http://misha-panyushkin.github.io/js_learning/lesson2.html', className: 'emphasized' },
