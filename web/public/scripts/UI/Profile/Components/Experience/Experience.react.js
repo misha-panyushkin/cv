@@ -36,7 +36,7 @@ export default function Experience ({  }) {
                     <h4 className="cHeader">Lead Frontend Developer</h4>
                     <h5 className="cHeader delimiter">at</h5>
                     <h4 className="cHeader">
-                        <ExternalLink link="http://www.embria.ru/" className="emphasized">
+                        <ExternalLink link="http://embria.com/" className="emphasized">
                             Embria
                         </ExternalLink>
                     </h4>
